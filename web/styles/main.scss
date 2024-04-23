@@ -34,31 +34,31 @@
 html,
 body {
   margin: 0;
-  height: 100%;
+  // height: 100%;
   padding: 0;
   width: 100%;
-  overflow: hidden;
-  background-color: var(--top-background-color);
+  // overflow: hidden;
+  background-color: var(--root-background-color);
 }
 
 #sb-root {
-  display: flex;
-  flex-direction: column;
+  // display: flex;
+  // flex-direction: column;
   width: 100%;
-  height: 100%;
-  background-color: var(--root-background-color);
+  // height: 100%;
+  // background-color: var(--top-background-color);
 }
 
 #sb-top {
   display: flex;
-  flex-direction: row;
-  z-index: 20;
+  // flex-direction: row;
+  // z-index: 20;
 
-  height: 55px;
+  // height: 55px;
 
   .main {
     flex: 2;
-    max-width: 100%;
+    // max-width: 100%;
 
     .inner {
       // Hack to not have SCSS precompile this value but use proper CSS variables
@@ -67,14 +67,14 @@ body {
       font-size: 28px;
       padding: 10px 0;
       display: flex;
-      flex-direction: row;
+      // flex-direction: row;
 
       .wrapper {
         width: 100%;
-        padding: 0 20px;
+        // padding: 0 20px;
         display: flex;
         box-sizing: border-box;
-        position: relative;
+        // position: relative;
 
         .sb-notifications {
           position: absolute;
@@ -101,7 +101,7 @@ body {
       overflow: hidden;
       white-space: nowrap;
       text-align: left;
-      display: block;
+      // display: block;
 
       .cm-scroller {
         font-family: var(--ui-font);
@@ -118,9 +118,9 @@ body {
   }
 
   .sb-actions {
-    display: flex;
-    align-items: baseline;
-    flex: 0 0 auto;
+    // display: flex;
+    // align-items: baseline;
+    // flex: 0 0 auto;
     text-align: right;
   }
 
@@ -134,7 +134,7 @@ body {
   }
 
   .progress-bar {
-    display: flex;
+    // display: flex;
     justify-content: center;
     align-items: center;
 
@@ -150,7 +150,7 @@ body {
 }
 
 .sb-panel {
-  flex: 1;
+  // flex: 1;
 }
 
 .sb-bottom-iframe {
@@ -170,12 +170,12 @@ body {
 
 #sb-main {
   display: flex;
-  flex-direction: row;
-  flex-grow: 1;
-  height: 0;
+  // flex-direction: row;
+  // flex-grow: 1;
+  // height: 0;
 
   .sb-panel {
-    flex: 1;
+    // flex: 1;
 
     iframe {
       border: 0;
@@ -189,7 +189,7 @@ body {
 
 #sb-editor {
   flex: 2;
-  height: 100%;
+  // height: 100%;
 
   width: 100%;
 }
